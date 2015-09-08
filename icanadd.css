@@ -1,0 +1,11 @@
+html, input, select {
+    font-size: 64pt;
+}
+
+#worksheet {
+    display: none;
+}
+
+#answer {
+    border: 0;
+}
