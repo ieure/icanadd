@@ -34,8 +34,8 @@ function nextProblem() {
 }
 
 function check() {
-    var l = $('#op_l').html();
-    var r = $('#op_r').html();
+    var l = parseInt($('#op_l').html());
+    var r = parseInt($('#op_r').html());
     switch (operator) {
     case "+":
         var answer = l + r;
